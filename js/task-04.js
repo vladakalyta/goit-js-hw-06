@@ -1,6 +1,8 @@
-const counterValue = document.querySelector('#value');
+const counterValue = document.querySelector("#value");
 const addButton = document.querySelector('button[data-action="increment"]');
-const substructButton = document.querySelector('button[data-action="decrement"]');
+const substructButton = document.querySelector(
+  'button[data-action="decrement"]'
+);
 
 let value = 0;
 
